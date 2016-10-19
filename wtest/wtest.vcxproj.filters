@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test_int2str.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test_log.cpp" />
+    <ClCompile Include="test_thread_pool.cpp" />
+    <ClCompile Include="test_cycle_buffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_util.h" />
+  </ItemGroup>
+</Project>

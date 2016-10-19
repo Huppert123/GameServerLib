@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="wnet_session.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_mem_pool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_type.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_define.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_server.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_session_mgr.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_client.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wasync_log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="wlog.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="wstream.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="wtime_const.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="wtime_api.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="wbuffer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wcycle_buffer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wint2str.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wthread_pool.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_ex_type.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_msg.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wnet_msg_queue.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="wmsg_handler.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="wsafe_cycle_queue.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="wcycle_queue.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="wcrypto.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wmd5.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wrc4.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wconfig.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="wutil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="wmsg_register.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="wtime_elapse.h">
+      <Filter>time</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wnet_session.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_mem_pool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_type.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_server.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_session_mgr.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_client.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wasync_log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="wlog.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="wstream.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="wtime_api.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="wbuffer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wcycle_buffer.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wint2str.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wthread_pool.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_ex_type.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_msg.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wnet_msg_queue.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="wcrypto.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wmd5.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wrc4.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="wconfig.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="wutil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{95d88b96-d819-43b6-958a-7f7f25cd847f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{23ca6c82-e165-42eb-8918-2949386a8676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{f56ce3a6-5ed3-49ce-aec8-e988e838e655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{ec35b42b-4dcc-4318-aacd-4795728d8ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msg">
+      <UniqueIdentifier>{76a77eda-86cf-44fc-b557-f693a5c70154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{5937ce4f-2c4c-43d8-8947-de4842353c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{8e22a9d1-9a02-4283-8c3c-0505bd1c5b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

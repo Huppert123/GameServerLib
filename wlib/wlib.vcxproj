@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wconfig.cpp" />
+    <ClCompile Include="wcrypto.cpp" />
+    <ClCompile Include="wmd5.cpp" />
+    <ClCompile Include="wnet_client.cpp" />
+    <ClCompile Include="wnet_ex_type.cpp" />
+    <ClCompile Include="wnet_msg.cpp" />
+    <ClCompile Include="wnet_msg_queue.cpp" />
+    <ClCompile Include="wnet_server.cpp" />
+    <ClCompile Include="wnet_type.cpp" />
+    <ClCompile Include="wnet_mem_pool.cpp" />
+    <ClCompile Include="wnet_session.cpp" />
+    <ClCompile Include="wasync_log.cpp" />
+    <ClCompile Include="wbuffer.cpp" />
+    <ClCompile Include="wcycle_buffer.cpp" />
+    <ClCompile Include="wint2str.cpp" />
+    <ClCompile Include="wlog.cpp" />
+    <ClCompile Include="wnet_session_mgr.cpp" />
+    <ClCompile Include="wrc4.cpp" />
+    <ClCompile Include="wstream.cpp" />
+    <ClCompile Include="wthread_pool.cpp" />
+    <ClCompile Include="wtime_api.cpp" />
+    <ClCompile Include="wutil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wconfig.h" />
+    <ClInclude Include="wcrypto.h" />
+    <ClInclude Include="wmd5.h" />
+    <ClInclude Include="wmsg_handler.h" />
+    <ClInclude Include="wmsg_register.h" />
+    <ClInclude Include="wnet_client.h" />
+    <ClInclude Include="wnet_define.h" />
+    <ClInclude Include="wnet_ex_type.h" />
+    <ClInclude Include="wnet_mem_pool.h" />
+    <ClInclude Include="wnet_msg.h" />
+    <ClInclude Include="wnet_msg_queue.h" />
+    <ClInclude Include="wnet_server.h" />
+    <ClInclude Include="wnet_type.h" />
+    <ClInclude Include="wnet_session.h" />
+    <ClInclude Include="wasync_log.h" />
+    <ClInclude Include="wbuffer.h" />
+    <ClInclude Include="wcycle_buffer.h" />
+    <ClInclude Include="wcycle_queue.h" />
+    <ClInclude Include="wint2str.h" />
+    <ClInclude Include="wlog.h" />
+    <ClInclude Include="wnet_session_mgr.h" />
+    <ClInclude Include="wrc4.h" />
+    <ClInclude Include="wsafe_cycle_queue.h" />
+    <ClInclude Include="wstream.h" />
+    <ClInclude Include="wthread_pool.h" />
+    <ClInclude Include="wtime_api.h" />
+    <ClInclude Include="wtime_const.h" />
+    <ClInclude Include="wtime_elapse.h" />
+    <ClInclude Include="wutil.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>wlib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)..\vsout\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\vsout\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>$(W_INCLUDE)\boost\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

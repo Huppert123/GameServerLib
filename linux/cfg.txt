@@ -1,0 +1,23 @@
+﻿lan_ip = 127.0.0.1
+lan_port = 7000
+
+wan_ip = 127.0.0.1
+wan_port = 8000
+
+#time_zone = 8
+
+heart_beat = 600000
+
+lan_client_max_num = 1
+lan_max_recv_size=1024
+lan_recv_buf_size=6
+lan_send_buf_size=6
+
+wan_client_max_num = 1
+wan_max_recv_size=1024
+wan_recv_buf_size=6
+wan_send_buf_size=6
+
+msg_id_key = 0
+msg_size_key = 0
+msg_cropto = 0

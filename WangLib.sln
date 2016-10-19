@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wlib", "wlib\wlib.vcxproj", "{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wtest", "wtest\wtest.vcxproj", "{C6ADECB9-EF53-4785-A0D7-4ABE9AD32E79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66} = {2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wclient", "wclient\wclient.vcxproj", "{774414FA-3392-4810-A3BA-D11FF8482FCD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66} = {2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wserver", "wserver\wserver.vcxproj", "{C936E112-05F1-4735-B2E1-26219DA05871}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66} = {2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}
+		{BEC1E7D0-7592-4BE9-8135-E86B7AC0A67D} = {BEC1E7D0-7592-4BE9-8135-E86B7AC0A67D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wshare", "wshare\wshare.vcxproj", "{BEC1E7D0-7592-4BE9-8135-E86B7AC0A67D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AC6BCAA-5F43-43B5-8B04-A7D1C9867D66}.Debug|x86.Build.0 = Debug|Win32
+		{C6ADECB9-EF53-4785-A0D7-4ABE9AD32E79}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6ADECB9-EF53-4785-A0D7-4ABE9AD32E79}.Debug|x86.Build.0 = Debug|Win32
+		{774414FA-3392-4810-A3BA-D11FF8482FCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{774414FA-3392-4810-A3BA-D11FF8482FCD}.Debug|x86.Build.0 = Debug|Win32
+		{C936E112-05F1-4735-B2E1-26219DA05871}.Debug|x86.ActiveCfg = Debug|Win32
+		{C936E112-05F1-4735-B2E1-26219DA05871}.Debug|x86.Build.0 = Debug|Win32
+		{BEC1E7D0-7592-4BE9-8135-E86B7AC0A67D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BEC1E7D0-7592-4BE9-8135-E86B7AC0A67D}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
